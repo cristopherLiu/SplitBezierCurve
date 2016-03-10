@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F787FB51C91463B00792347 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F787FB41C91463B00792347 /* AppDelegate.swift */; };
+		4F787FB71C91463B00792347 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F787FB61C91463B00792347 /* ViewController.swift */; };
+		4F787FBA1C91463B00792347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F787FB81C91463B00792347 /* Main.storyboard */; };
+		4F787FBC1C91463B00792347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F787FBB1C91463B00792347 /* Assets.xcassets */; };
+		4F787FBF1C91463B00792347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F787FBD1C91463B00792347 /* LaunchScreen.storyboard */; };
+		4F787FCA1C91463B00792347 /* SplitBezierCurveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F787FC91C91463B00792347 /* SplitBezierCurveTests.swift */; };
+		4F787FD51C91474500792347 /* Bezier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F787FD41C91474500792347 /* Bezier.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F787FC61C91463B00792347 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F787FA91C91463B00792347 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F787FB01C91463B00792347;
+			remoteInfo = SplitBezierCurve;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F787FB11C91463B00792347 /* SplitBezierCurve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitBezierCurve.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F787FB41C91463B00792347 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F787FB61C91463B00792347 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F787FB91C91463B00792347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F787FBB1C91463B00792347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F787FBE1C91463B00792347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F787FC01C91463B00792347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F787FC51C91463B00792347 /* SplitBezierCurveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitBezierCurveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F787FC91C91463B00792347 /* SplitBezierCurveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitBezierCurveTests.swift; sourceTree = "<group>"; };
+		4F787FCB1C91463B00792347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F787FD41C91474500792347 /* Bezier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bezier.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F787FAE1C91463B00792347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F787FC21C91463B00792347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F787FA81C91463B00792347 = {
+			isa = PBXGroup;
+			children = (
+				4F787FB31C91463B00792347 /* SplitBezierCurve */,
+				4F787FC81C91463B00792347 /* SplitBezierCurveTests */,
+				4F787FB21C91463B00792347 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F787FB21C91463B00792347 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F787FB11C91463B00792347 /* SplitBezierCurve.app */,
+				4F787FC51C91463B00792347 /* SplitBezierCurveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F787FB31C91463B00792347 /* SplitBezierCurve */ = {
+			isa = PBXGroup;
+			children = (
+				4F787FB41C91463B00792347 /* AppDelegate.swift */,
+				4F787FB61C91463B00792347 /* ViewController.swift */,
+				4F787FD41C91474500792347 /* Bezier.swift */,
+				4F787FB81C91463B00792347 /* Main.storyboard */,
+				4F787FBB1C91463B00792347 /* Assets.xcassets */,
+				4F787FBD1C91463B00792347 /* LaunchScreen.storyboard */,
+				4F787FC01C91463B00792347 /* Info.plist */,
+			);
+			path = SplitBezierCurve;
+			sourceTree = "<group>";
+		};
+		4F787FC81C91463B00792347 /* SplitBezierCurveTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F787FC91C91463B00792347 /* SplitBezierCurveTests.swift */,
+				4F787FCB1C91463B00792347 /* Info.plist */,
+			);
+			path = SplitBezierCurveTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F787FB01C91463B00792347 /* SplitBezierCurve */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F787FCE1C91463B00792347 /* Build configuration list for PBXNativeTarget "SplitBezierCurve" */;
+			buildPhases = (
+				4F787FAD1C91463B00792347 /* Sources */,
+				4F787FAE1C91463B00792347 /* Frameworks */,
+				4F787FAF1C91463B00792347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SplitBezierCurve;
+			productName = SplitBezierCurve;
+			productReference = 4F787FB11C91463B00792347 /* SplitBezierCurve.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F787FC41C91463B00792347 /* SplitBezierCurveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F787FD11C91463B00792347 /* Build configuration list for PBXNativeTarget "SplitBezierCurveTests" */;
+			buildPhases = (
+				4F787FC11C91463B00792347 /* Sources */,
+				4F787FC21C91463B00792347 /* Frameworks */,
+				4F787FC31C91463B00792347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F787FC71C91463B00792347 /* PBXTargetDependency */,
+			);
+			name = SplitBezierCurveTests;
+			productName = SplitBezierCurveTests;
+			productReference = 4F787FC51C91463B00792347 /* SplitBezierCurveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F787FA91C91463B00792347 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = hjliu;
+				TargetAttributes = {
+					4F787FB01C91463B00792347 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					4F787FC41C91463B00792347 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4F787FB01C91463B00792347;
+					};
+				};
+			};
+			buildConfigurationList = 4F787FAC1C91463B00792347 /* Build configuration list for PBXProject "SplitBezierCurve" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F787FA81C91463B00792347;
+			productRefGroup = 4F787FB21C91463B00792347 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F787FB01C91463B00792347 /* SplitBezierCurve */,
+				4F787FC41C91463B00792347 /* SplitBezierCurveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F787FAF1C91463B00792347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F787FBF1C91463B00792347 /* LaunchScreen.storyboard in Resources */,
+				4F787FBC1C91463B00792347 /* Assets.xcassets in Resources */,
+				4F787FBA1C91463B00792347 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F787FC31C91463B00792347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F787FAD1C91463B00792347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F787FD51C91474500792347 /* Bezier.swift in Sources */,
+				4F787FB71C91463B00792347 /* ViewController.swift in Sources */,
+				4F787FB51C91463B00792347 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F787FC11C91463B00792347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F787FCA1C91463B00792347 /* SplitBezierCurveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F787FC71C91463B00792347 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F787FB01C91463B00792347 /* SplitBezierCurve */;
+			targetProxy = 4F787FC61C91463B00792347 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F787FB81C91463B00792347 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F787FB91C91463B00792347 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F787FBD1C91463B00792347 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F787FBE1C91463B00792347 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F787FCC1C91463B00792347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F787FCD1C91463B00792347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F787FCF1C91463B00792347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SplitBezierCurve/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sce.SplitBezierCurve;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F787FD01C91463B00792347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SplitBezierCurve/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sce.SplitBezierCurve;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F787FD21C91463B00792347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SplitBezierCurveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sce.SplitBezierCurveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplitBezierCurve.app/SplitBezierCurve";
+			};
+			name = Debug;
+		};
+		4F787FD31C91463B00792347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SplitBezierCurveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sce.SplitBezierCurveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplitBezierCurve.app/SplitBezierCurve";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F787FAC1C91463B00792347 /* Build configuration list for PBXProject "SplitBezierCurve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F787FCC1C91463B00792347 /* Debug */,
+				4F787FCD1C91463B00792347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F787FCE1C91463B00792347 /* Build configuration list for PBXNativeTarget "SplitBezierCurve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F787FCF1C91463B00792347 /* Debug */,
+				4F787FD01C91463B00792347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F787FD11C91463B00792347 /* Build configuration list for PBXNativeTarget "SplitBezierCurveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F787FD21C91463B00792347 /* Debug */,
+				4F787FD31C91463B00792347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F787FA91C91463B00792347 /* Project object */;
+}
